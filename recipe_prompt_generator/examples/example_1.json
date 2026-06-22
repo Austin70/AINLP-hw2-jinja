@@ -1,0 +1,13 @@
+{
+  "title": "Basic Pancakes",
+  "ingredients": ["flour", "eggs", "milk", "butter", "sugar"],
+  "steps": [
+    "Mix dry ingredients in a bowl",
+    "Add wet ingredients and stir until smooth",
+    "Heat a non-stick pan over medium heat",
+    "Pour batter onto the pan",
+    "Cook until bubbles form on top",
+    "Flip and cook until golden brown"
+  ],
+  "difficulty": "beginner"
+}

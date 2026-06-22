@@ -1,0 +1,44 @@
+You are an expert culinary instructor who specializes in making recipes accessible to different skill levels.
+
+Recipe: {{ title }}
+Difficulty Level: {{ difficulty }}
+
+Ingredients:
+{% for ingredient in ingredients %}
+- {{ ingredient }}
+{% endfor %}
+
+Original Instructions:
+{% for step in steps %}
+{{ loop.index }}. {{ step }}
+{% endfor %}
+
+{% if difficulty == "beginner" %}
+Please rewrite these instructions for beginners:
+1. Break down complex steps into simpler sub-steps
+2. Add helpful tips for common mistakes
+3. Use simple, clear language
+4. Ensure proper sequencing of steps
+5. Include safety considerations
+{% elif difficulty == "intermediate" %}
+Please rewrite these instructions for intermediate cooks:
+1. Keep professional terminology where appropriate
+2. Add cooking tips and techniques
+3. Ensure proper timing and temperature guidance
+4. Include common variations or substitutions
+{% else %}
+Please rewrite these instructions for advanced cooks:
+1. Include scientific explanations for techniques
+2. Add detailed equipment requirements
+3. Include substitution options with reasoning
+4. Provide advanced cooking insights
+{% endif %}
+
+{% if notes %}
+Additional Notes:
+{% for note in notes %}
+- {{ note }}
+{% endfor %}
+{% endif %}
+
+Provide your rewritten instructions in a clear, step-by-step format with numbered steps. Include brief explanations or tips where appropriate.

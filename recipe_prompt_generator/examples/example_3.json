@@ -1,0 +1,17 @@
+{
+  "title": "Chocolate Cake with Ganache",
+  "ingredients": ["flour", "cocoa powder", "eggs", "sugar", "butter", "vanilla extract", "baking powder", "salt", "heavy cream", "dark chocolate"],
+  "steps": [
+    "Preheat oven to 350°F",
+    "Mix dry ingredients in a bowl",
+    "Cream butter and sugar until fluffy",
+    "Beat in eggs one at a time",
+    "Alternately add dry ingredients and milk",
+    "Bake for 30-35 minutes",
+    "Cool completely before making ganache",
+    "Chop chocolate and combine with heated cream",
+    "Pour ganache over cooled cake"
+  ],
+  "difficulty": "advanced",
+  "notes": ["Let cake cool completely before adding ganache"]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Creamy Mushroom Pasta",
+  "ingredients": ["pasta", "mushrooms", "heavy cream", "garlic", "parmesan", "olive oil"],
+  "steps": [
+    "Boil pasta according to package directions",
+    "Sauté mushrooms in olive oil until golden",
+    "Add minced garlic and cook for 1 minute",
+    "Pour in heavy cream and simmer for 5 minutes",
+    "Stir in parmesan cheese until melted",
+    "Combine sauce with cooked pasta"
+  ],
+  "difficulty": "intermediate",
+  "notes": ["Use fresh mushrooms for best flavor"]
+}
