@@ -23,3 +23,6 @@ Loops: Ingredients and steps are processed systematically
 Reusable Components: Common patterns defined once and reused
 Optional Sections: Safety notes that appear only when needed
 Multiple Variants: Easy to generate different output formats
+
+Run the script:
+python generate_prompts.py inside the folder
