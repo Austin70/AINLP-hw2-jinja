@@ -1,5 +1,6 @@
 Project Overview  
 This project demonstrates how Jinja templating can be used to generate dynamic prompts for rewriting recipe instructions. The task involves taking a raw recipe and generating clearer, more accessible versions for different skill levels.
+
 Why Jinja?  
 Jinja is appropriate for this task because:
 Conditional Logic: Different instructions for beginner vs advanced cooks
